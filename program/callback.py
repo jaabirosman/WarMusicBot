@@ -16,8 +16,8 @@ from config import (
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""✨ **Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) allows you to play music and video on groups through the new Telegram's video chats!**
+        f"""✪ **Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
+✪ **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) allows you to play music and video on groups through the new Telegram's video chats!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
@@ -33,19 +33,19 @@ async def cbstart(_, query: CallbackQuery):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("♡︎ Donate", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🇸🇴 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "💜 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "💞 𝐎𝐬𝐦𝐚𝐧𝐢 𝐋𝐨𝐯𝐞", url="https://t.me/Osmanilovestore"
                     )
                 ],
             ]
@@ -80,7 +80,7 @@ async def cbguides(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbcmds"))
 async def cbcmds(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""✨ **Hello [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
+        f"""✪ **Hello [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
 
 » **press the button below to read the explanation and see the list of available commands !**
 
@@ -103,7 +103,7 @@ async def cbcmds(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbbasic"))
 async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 here is the basic commands:
+        f"""⍟ here is the basic commands:
 
 » /play (song name/link) - play music on video chat
 » /vplay (video name/link) - play video on video chat
@@ -118,7 +118,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /uptime - show the bot uptime status
 » /alive - show the bot alive info (in group)
 
-⚡️ __Powered by {BOT_NAME} AI__""",
+⚡️ __Powered by {BOT_NAME} @OSMANILOVESTORE """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -128,7 +128,7 @@ async def cbbasic(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbadmin"))
 async def cbadmin(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 here is the admin commands:
+        f"""⍟ here is the admin commands:
 
 » /pause - pause the stream
 » /resume - resume the stream
@@ -141,7 +141,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotjoin - invite the userbot to join group
 » /userbotleave - order userbot to leave from group
 
-⚡️ __Powered by {BOT_NAME} AI__""",
+⚡️ __Powered by {BOT_NAME} @OSMANILOVESTORE """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -150,7 +150,7 @@ async def cbadmin(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbsudo"))
 async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 here is the sudo commands:
+        f"""⍟ here is the sudo commands:
 
 » /rmw - clean all raw files
 » /rmd - clean all downloaded files
@@ -159,7 +159,7 @@ async def cbsudo(_, query: CallbackQuery):
 » /restart - restart your bot
 » /leaveall - order userbot to leave from all group
 
-⚡ __Powered by {BOT_NAME} AI__""",
+⚡ __Powered by {BOT_NAME} @OSMANILOVESTORE """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),

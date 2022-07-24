@@ -53,12 +53,13 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
+        f"""✪ **Welcome {message.from_user.mention()} !**\n
+★ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
 🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+❥︎  **𝐇𝐞𝐥𝐩 𝐎𝐰𝐧𝐞𝐫 𝐁𝐨𝐭 » @ribajosmani **
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -70,20 +71,20 @@ async def start_(client: Client, message: Message):
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ info", url=f"https://t.me/wrrlegend"),
+                    InlineKeyboardButton("📚 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="cbcmds"),
+                    InlineKeyboardButton("❤️ 𝐎𝐬𝐦𝐚𝐧𝐢 𝐋𝐨𝐯𝐞", url=f"https://t.me/Osmanilovestore"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🇸🇴 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "💜 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 HELP", url="https://t.me/warbotzsupport"
+                        "✔ 𝐇𝐞𝐥𝐩", url="https://t.me/salmanhelp"
                     )
                 ],
             ]
@@ -153,11 +154,11 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("💜 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                            InlineKeyboardButton("🇸🇴 Support", url=f"https://t.me/{GROUP_SUPPORT}")
                         ],
                         [
-                            InlineKeyboardButton("👤 Assistant", url=f"https://t.me/{ass_uname}")
+                            InlineKeyboardButton("👤 Osmani Assistant", url=f"https://t.me/{ass_uname}")
                         ]
                     ]
                 )

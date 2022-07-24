@@ -1,11 +1,11 @@
-## WAR MUSIC / VIDEO PLAYER 
+## VI MUSIC / VIDEO PLAYER 
 
 ### Bot 
-* Bot Link:  <a href="http://t.me/TheWarBotZ/60" alt=" warbotz "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Thewarbotz-blue" /> </a>
+* Bot Link:  <a href="http://t.me/ribajosmani/60" alt=" warbotz "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Thewarbotz-blue" /> </a>
 
 ## 🧪 Get `SESSION_NAME` from below:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@xAbhish3k/generateStringsession) ``Pyrogram``
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@salmanhelp/generateStringsession) ``Pyrogram``
 
 ## 🎭 Preview
 <p align="center">
@@ -54,7 +54,7 @@
 ## Heroku Deployment ❣️
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xAbhish3k/warmusicbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ribfirst/WarMusicBot)
 
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
@@ -80,7 +80,7 @@ python3 main.py # run the bot.
 > veez All Devs 
 
 ## Support & Updates 📢
-<a href="https://t.me/WarbotzSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/TheWarBotZ"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/osmanigroupbot"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/teamosmani"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 
